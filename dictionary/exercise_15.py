@@ -4,3 +4,8 @@
 # {'Theodore': 19, 'Roxanne': 20, 'Mathew': 21, 'Betty': 20}
 # Create a flat list of all the values of the said flat dictionary:
 # [19, 20, 21, 20]
+
+assert [19, 20, 21, 20] == [
+    value
+    for value in {'Theodore': 19, 'Roxanne': 20, 'Mathew': 21, 'Betty': 20}.values()
+]

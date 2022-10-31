@@ -4,3 +4,8 @@
 # {'Red': 1, 'Green': 3, 'White': 5, 'Black': 2, 'Pink': 4}
 # Convert the said dictionary to a list of tuples:
 # [('Red', 1), ('Green', 3), ('White', 5), ('Black', 2), ('Pink', 4)]
+
+
+assert [
+    (k, v) for k, v in {'Red': 1, 'Green': 3, 'White': 5, 'Black': 2, 'Pink': 4}.items()
+] == [('Red', 1), ('Green', 3), ('White', 5), ('Black', 2), ('Pink', 4)]
