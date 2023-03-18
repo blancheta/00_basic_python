@@ -5,8 +5,11 @@
 
 
 def exercise_11(list1: list, list2: list) -> bool:
-    # Your code here
-    return
+    res = False
+    for item in list1:
+        if item in list2:
+            res = True
+    return res
 
 
 # 1st test

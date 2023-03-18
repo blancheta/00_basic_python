@@ -3,8 +3,7 @@
 
 
 def exercise_1(numbers: list) -> int:
-    # Your code here
-    return
+    return sum(numbers)
 
 
 numbers = [1, 2, 3, 4]

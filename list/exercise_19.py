@@ -3,8 +3,7 @@
 # Multidimensional list: [[0, 0], [0, 0], [0, 0]]
 
 def exercise_19(col, row) -> list:
-    # Your code here
-    return
+    return [[0] * row for i in range(col)]
 
 
 assert exercise_19(2, 3) == [

@@ -1,8 +1,8 @@
 # TODO: Write a Python program
 #       to split a list into different variables.
 
-def exercise_15(list1: list) -> tuple:
-    # Your code here
+def exercise_15(list1: list) -> tuple: # should program return tuple?
+    a, b, c, d = list1
     assert a == 1
     assert b == 2
     assert c == 3

@@ -4,8 +4,7 @@
 
 
 def exercise_17(list1: list) -> list:
-    # Your code here
-    return
+    return sorted(list1, key=lambda x: x["qty"])
 
 
 list1 = [
@@ -15,4 +14,4 @@ list1 = [
     {"fruit": "Banana", "qty": 8},
 ]
 
-assert exercise_17(list1)
+assert exercise_17(list1) # there is no assertion
