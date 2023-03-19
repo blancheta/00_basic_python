@@ -2,8 +2,10 @@
 
 
 def exercise_7(words: set, subset: set) -> set:
-    # Your code here
-    return
+    if subset.issubset(words):
+        return True
+    else:
+        return False
 
 
 words = {"baseball", "karate", "football"}

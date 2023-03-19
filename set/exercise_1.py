@@ -2,7 +2,7 @@
 
 
 def exercise_1_first_solution(fruits_set: set) -> set:
-    # Your code here
+    fruits_set.update({"🥝", "🍓", "Orange", "🥭", "Peach"})
     return fruits_set
 
 

@@ -2,8 +2,7 @@
 
 
 def exercise_10(animals: list) -> frozenset:
-    # Your code here
-    return
+    return frozenset(animals)
 
 
 animals = ["Fox", "Cat", "Dog"]

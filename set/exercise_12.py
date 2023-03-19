@@ -2,8 +2,7 @@
 
 
 def exercise_12(basket: set) -> int:
-    # Your code here
-    return
+    return len(basket)
 
 
 basket = {"🍪", "🍕", "🍔", "🍿"}

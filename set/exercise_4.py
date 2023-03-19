@@ -2,8 +2,7 @@
 
 
 def exercise_4(first_set: set, second_set: set) -> set:
-    # Your code here
-    return
+    return first_set.union(second_set)
 
 
 cars_1 = {"Ferrari", "Mercedes"}

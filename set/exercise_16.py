@@ -2,8 +2,7 @@
 
 
 def exercise_16(first_set: set, second_set: set) -> str:
-    # Your code here
-    return
+    return first_set.symmetric_difference(second_set).pop()
 
 
 cars_1 = {"Ferrari"}
