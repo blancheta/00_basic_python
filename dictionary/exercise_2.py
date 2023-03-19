@@ -9,8 +9,20 @@ dict1 = {
 
 
 def exercise_2(dict1):
-    # Your code here
-    return dict1
+    res = {}
+    values_list = []
+    keys_list = []
+    for key, value in dict1.items():
+        if value not in res.values():
+            res[key] = value
+        else:
+            values_list.append(value)
+    for key, value in res.items():
+        if value in values_list:
+            keys_list.append(key)
+    for key in keys_list:
+        del res[key]
+    return res
 
 
 assert exercise_2(dict1) == {("3"): 4}

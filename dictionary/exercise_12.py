@@ -3,7 +3,8 @@
 
 
 def exercise_12(dict1):
-    # Your code here
+    for key, value in dict1.items():
+        dict1[key] = [x for x in value if x % 2 == 0]
     return dict1
 
 

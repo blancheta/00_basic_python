@@ -3,6 +3,8 @@
 
 
 def exercise_19(dict1):
+    dict1["message"] = "Bonjour"
+    dict1["username"] = "Francois"
     return dict1
 
 

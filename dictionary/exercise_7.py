@@ -8,7 +8,9 @@ dict1 = {'c1': 'Red', 'c2': 'Green', 'c3': None}
 
 
 def exercise_7(dict1):
-    # Your code here
+    for key, value in dict1.copy().items():
+        if value is None:
+            del dict1[key]
     return dict1
 
 
