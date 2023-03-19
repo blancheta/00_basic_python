@@ -9,8 +9,12 @@ list2 = [1, 2, 2, 3]
 
 
 def exercise_6(first_list, second_list):
-    # Your code here
-    return
+    res_dict = {}
+    for key, value in zip(first_list, second_list):
+        if key not in res_dict:
+            res_dict[key] = set()
+        res_dict[key].add(value)
+    return res_dict
 
 
 assert exercise_6(list1, list2) == {'Class-V': {1}, 'Class-VI': {2}, 'Class-VII': {2}, 'Class-VIII': {3}}

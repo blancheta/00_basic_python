@@ -4,8 +4,12 @@
 
 
 def exercise_13(dict1):
-    # Your code here
-    pass
+    for item in dict1:
+        if item["class"] == "V":
+            dict1[dict1.index(item)] = True
+        else:
+            dict1[dict1.index(item)] = False
+    return dict1
 
 
 # 1st test

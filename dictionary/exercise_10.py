@@ -2,9 +2,10 @@
 #       to update elements in list stored as dictionary values.
 
 
-def exercise_10():
-    # Your code here
-    pass
+def exercise_10(dict1):
+    dict1['Math'] = [89, 90, 91]
+    dict1['Physics'] = [90, 92, 87]
+    return dict1
 
 
 dict1 = {

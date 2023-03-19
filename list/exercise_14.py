@@ -4,8 +4,10 @@
 
 
 def exercise_14(list1: list) -> dict:
-    # Your code here
-    return
+    res = {}
+    for item in list1:
+        res[item] = res.get(item, 0) + 1
+    return res
 
 
 list1 = ["a", "a", "b", "b", "c", "d", "d", "d"]

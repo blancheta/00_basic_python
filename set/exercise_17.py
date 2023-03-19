@@ -1,9 +1,10 @@
 # Write a Python program to remove an item from a set if it is present in the set.
 
 
-def exercise_18():
-    # Your code here
-    return
+def exercise_18(basket, item_to_remove):
+    if item_to_remove in basket:
+        basket.remove(item_to_remove)
+    return basket
 
 
 basket = {"Hamburger", "Rice", "Carrot", "Eggs"}

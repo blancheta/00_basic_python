@@ -2,9 +2,15 @@
 #       to create a list of dictionaries of dictionary of lists.
 
 
-def exercise_9():
-    # Your code here
-    pass
+def exercise_9(dict1):
+    res = []
+    n = len(next(iter(dict1.values())))
+    for i in range(n):
+        list_dict = {}
+        for key, value in dict1.items():
+            list_dict[key] = value[i]
+        res.append(list_dict)
+    return res
 
 
 dict1 = {

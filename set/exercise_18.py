@@ -2,10 +2,11 @@
 
 
 def exercise_19(cars: set):
-    # Your code here
-    pass
+    for car in cars:
+        print(car)
+    return True
 
 
 cars = {"Ferrari", "Mercedes", "Peugeot"}
 
-assert exercise_19(cars)
+assert exercise_19(cars) # Nut sure what to assert here

@@ -2,8 +2,7 @@
 
 
 def exercise_13(word_to_find: str, basket: set) -> bool:
-    # Your code here
-    return
+    return word_to_find in basket
 
 
 basket = {"Pizza", "Cheese", "Cucumber", "Potato"}

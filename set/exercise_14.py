@@ -2,8 +2,7 @@
 
 
 def exercise_14(first_set: set, second_set: set) -> bool:
-    # Your code here
-    return
+    return len(first_set.intersection(second_set)) == 0
 
 
 cars_1 = {"Ferrari", "Mercedes"}

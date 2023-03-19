@@ -3,8 +3,10 @@
 
 
 def exercise_2(numbers: list) -> int:
-    # Your code here
-    return
+    res = 1
+    for item in numbers:
+        res *= item
+    return res
 
 
 numbers = [1, 2, 3, 4]

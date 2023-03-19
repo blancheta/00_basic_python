@@ -10,8 +10,12 @@ dict1 = {
 
 
 def exercise_3(dict1):
-    # Your code here
-    pass
+    unique_values_dict = {}
+    for key, value in dict1.items():
+        if value not in unique_values_dict.values():
+            unique_values_dict[key] = value
+    for value in unique_values_dict.values():
+        print(value)
 
 
 exercise_3(dict1)

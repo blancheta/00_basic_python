@@ -2,8 +2,7 @@
 
 
 def exercise_20(elements: list) -> set:
-    # Your code here
-    return
+    return set(elements)
 
 
 elements_to_add = ["Fox", "Fox", "Cat", "Cat", "Dog"]

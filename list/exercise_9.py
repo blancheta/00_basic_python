@@ -3,8 +3,10 @@
 
 
 def exercise_9(sample_list: list) -> bool:
-    # Your code here
-    return
+    res = []
+    for item in sample_list:
+        res.append(item)
+    return res
 
 
 string_list = ['abc', 'xyz', 'abc', '1221']

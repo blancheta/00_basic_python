@@ -6,8 +6,8 @@ dict2 = {"name": "Waouf"}
 
 
 def exercise_1(dict1, dict2):
-    # Your code here
-    return
+    dict1.update(dict2)
+    return dict1
 
 
 assert exercise_1(dict1, dict2) == {"type": "dog", "name": "Waouf"}

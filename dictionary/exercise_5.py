@@ -9,8 +9,10 @@ dict1 = {
 
 
 def exercise_5(dict1):
-    # Your code here
-    return
+    res_dict = {}
+    for key in dict1:
+        res_dict[key.replace(' ', '')] = dict1[key]
+    return res_dict
 
 
 

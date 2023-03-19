@@ -2,8 +2,7 @@
 
 
 def exercise_8(animals: set) -> set:
-    # Your code here
-    return
+    return animals.copy()
 
 
 animals = {"Fox", "Cat", "Dog"}

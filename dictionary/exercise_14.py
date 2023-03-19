@@ -9,7 +9,11 @@
 # ['Roxanne', 'Betty']
 
 def exercise_14(dict1, number):
-    return dict1
+    dict_list = []
+    for key, value in dict1.items():
+        if value == number:
+            dict_list.append(key)
+    return dict_list
 
 
 dict1 = {'Theodore': 19, 'Roxanne': 20, 'Mathew': 21, 'Betty': 20}
