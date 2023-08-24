@@ -4,8 +4,12 @@
 
 
 def exercise_10(sample_list: list, n: int) -> bool:
-    # Your code here
-    return
+# Your code here
+	x_word=[]
+	for x in sample_list:
+		if(len(x)>n):
+			x_word.append(x)
+	return x_word
 
 
 sample_list = ["train", "bike", "cat", "do", "I"]
